@@ -28,3 +28,22 @@
 .rodapePrincipal-contatoForm-fieldset {
   display: flex;
 }
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  /*flex-direction: column;
+  flex-wrap: wrap;*/
+  flex-flow: column wrap;
+  height: 252px;
+}
+
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 23%;
+  margin-bottom: 1%;
+}
