@@ -40,7 +40,6 @@
 .conteudoPrincipal-cursos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
 }
 
 .conteudoPrincipal-cursos-link {
@@ -54,4 +53,15 @@
 
 .conteudoPrincipal-cursos-link:nth-child(4n+1) {
   margin-left: 0;
+}
+
+/*parte mobile*/
+.cabecalhoPrincipal-nav {
+  flex-direction: column;
+}
+
+.cabecalhoPrincipal .container {
+  flex-direction: column;
+  align-items: initial;
+  text-align: center;
 }
